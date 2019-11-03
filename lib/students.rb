@@ -12,4 +12,5 @@ def average_students_gpa
 end
 
 def all_tardies_for_all_students
-  "SELECT SUM("
+  "SELECT SUM(tardies) FROM students"
+end 
