@@ -1,9 +1,12 @@
 
 
 def highest_student_gpa
-  "SELECT MAX(gpa) FROM students";
+  "SELECT MAX(students.gpa) FROM students";
 end
 
+
 def highest_student_gpa 
-  "SELECT MIN(gpa) FROM students";
+  "SELECT MIN(students.gpa) FROM students";
 end
+
+
