@@ -5,7 +5,7 @@ def highest_student_gpa
 end
 
 
-def highest_student_gpa 
+def lowest_student_gpa 
   "SELECT MIN(students.gpa) FROM students";
 end
 
