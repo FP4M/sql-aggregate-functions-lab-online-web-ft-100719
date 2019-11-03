@@ -12,7 +12,7 @@ describe "aggregate functions sql" do
 
 
 def highest_students_gpa
-  "SELECT MAX(students.gpa) FROM students";
+  "SELECT MAX(gpa) FROM students";
 end
 
 
