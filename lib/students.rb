@@ -1,1 +1,1 @@
-def highest_student
+def highest_student_gpa
