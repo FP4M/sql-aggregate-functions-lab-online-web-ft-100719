@@ -1,10 +1,12 @@
-def highest_student_gpa
+def highest_students_gpa
   "SELECT MAX(students.gpa) FROM students";
 end
 
 
-def lowest_student_gpa 
+def lowest_students_gpa 
   "SELECT MIN(students.gpa) FROM students";
 end
 
-def 
+def average_students_gpa
+  "SELECT AVG(student_gpa) FROM students"
+end
