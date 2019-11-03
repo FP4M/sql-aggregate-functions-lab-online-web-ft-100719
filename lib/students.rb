@@ -1,3 +1,6 @@
+
+
+
 def highest_students_gpa
   "SELECT MAX(students.gpa) FROM students";
 end
