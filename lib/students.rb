@@ -11,4 +11,5 @@ def average_students_gpa
   "SELECT AVG(student_gpa) FROM students"
 end
 
-def 
+def all_tardies_for_all_students
+  
